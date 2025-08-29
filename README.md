@@ -1,5 +1,5 @@
 # Experimenting with CSS Selectors and properties
-This is an excircise for experimenting with css selectors and properties
+This is an exercise for experimenting with css selectors and properties
 
 ## Prerequisites
 - Ensure you have a live server to experiment with it locally

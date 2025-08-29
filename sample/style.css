@@ -1,0 +1,81 @@
+/* Change background color of the whole page */
+body {
+  background-color: #fdf6e3; /* soft beige background */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the headings */
+h1 {
+  color: darkgreen;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: darkblue;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ /* Navigation */
+.navigation ul {
+  list-style-type: none; /* remove bullets */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation a.active {
+  color: yellow;
+}
+
+.navigation a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* Style images */
+.hero-image {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/*Lists*/
+ul {
+  padding-left: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+.quick-facts ul li {
+  margin-bottom: 5px;
+  background: #eef;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
